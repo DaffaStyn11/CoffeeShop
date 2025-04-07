@@ -22,7 +22,7 @@ nav ul{
     gap: 100px;
     margin-inline-end: 50px;
     list-style: none;
-    margin: 0 0 -50px 0;
+    margin: 0 0 -30px 0;
 }
 
 nav li a{
@@ -30,10 +30,10 @@ nav li a{
     color: #D0C9C9;
 }
 
-p{
+.tittle-nav {
     color: #EDD6C8;
     margin-left: -125px;
-    margin-bottom: 0px;
+    margin-bottom: -20px;
     font-size: 24px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -57,3 +57,58 @@ p{
     font-family: 'Poppins', sans-serif;
     border: 2px solid #D0C9C9;  /* Menetapkan border pada semua sisi */
 }
+
+.nav-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(to right, rgba(135, 122, 114, 0.7), #EDD6C8);
+    /* background: #121212; cocok */
+    /* padding: 0 0 150px 0; */
+    min-height: 450px; /* pastikan section cukup tinggi */
+    align-items: stretch; /* Ini penting buat gambar mepet bawah */
+    padding: 0 80px;
+    height: 540px;
+}
+
+.nav-2-desc{
+    /* display: flex;
+    flex-direction: column;
+    height: 60px;
+    padding-top: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    padding: 20px;
+}
+.nav-2-desc .desc1 span{
+    margin-left: -100px;
+    display: flex;
+    font-size: 48px;
+    color: #000;
+    line-height: 1.7;
+}
+
+.nav-2-desc .desc2 span{
+    margin-left: -100px;
+    display: flex;
+    color: #000;
+    font-size: 28px;
+    margin-top: 24px;
+    line-height: 1.7;
+    margin-bottom: -20px;
+}
+
+.nav-hero{
+    display: flex;
+    height: 100%;
+    margin: 0 0 0 -100px;
+    align-items: flex-end;
+}
+.nav-hero img {
+    width: auto;
+    height: 90%;
+    object-fit: contain;
+}
+
