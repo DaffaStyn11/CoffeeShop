@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+
+    background: #947257;
+    padding: 0 10px;
+}
+
+.nav-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-inline-end: 50px;
+    list-style: none;
+    margin: 0 0 -50px 0;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #D0C9C9;
+}
+
+p{
+    color: #EDD6C8;
+    margin-left: -125px;
+    margin-bottom: 0px;
+    font-size: 24px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.nav-1 img{
+    width: auto;
+    height: 92px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 128px;
+    height: 44px;
+    background-color: #947257;
+    border-radius: 20px;
+    margin: 0 0 -20px 0;
+    color:#D0C9C9;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #D0C9C9;  /* Menetapkan border pada semua sisi */
+}
