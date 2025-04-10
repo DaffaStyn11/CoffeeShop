@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background: #EDD6C8;
 }
 
 header {
@@ -59,13 +60,16 @@ nav li a {
     border: 2px solid #D0C9C9;  /* Menetapkan border pada semua sisi */
 }
 
+.btn:hover{
+  background-color: #EDD6C8;
+  color: #C67C4E;
+}
+
 .nav-2 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background: linear-gradient(to right, #877A72B3, #EDD6C8);
-    /* background: #121212; cocok */
-    /* padding: 0 0 150px 0; */
+    background: linear-gradient(to right, #877A72B3, #EDD6C8); 
     min-height: 450px;
     align-items: stretch;
     padding: 0 80px;
@@ -111,3 +115,330 @@ nav li a {
     object-fit: contain;
 }
 
+.sec-about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 60px 10px;
+    flex-direction: row-reverse;
+    background: #121212;
+    border-radius: 30px;
+  }
+
+  .about-content {
+    /* margin-left: 500px; */
+    max-width: 40%;
+  }
+  .about-us-1 .span-1 {
+    color: #D0C9C9;
+    font-weight: bold;
+    font-size: 52px;
+    position: relative;
+    z-index: 1;
+  }
+  .about-us-1 .span-2 {
+    color: #EDD6C8;
+    font-weight: bold;
+    font-size: 52px;
+  }
+  .sec-1-desc-2 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .about-us-2 span {
+    display: block;
+    color: #EDD6C8;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  /* Button Order Now */
+  .btn2 {
+    background-color: #EDD6C8;
+    color: #C67C4E;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 4px 4px 12px rgba(198, 124, 78, 0.3);
+    transition: all 0.3s;
+    /* transform: skewX(-20deg); */
+  }
+  .btn2:hover {
+    background-color: #947257;
+    box-shadow: 4px 4px 12px rgba(148, 114, 87, 0.4);
+    color: #EDD6C8;
+  }
+  
+  /* Image positioning */
+  .about-us-3,
+  .about-us-4, .about-us-coffee {
+    position: relative;
+    display: flex;
+  }
+
+  .about-us-coffee{
+    width: 73px;
+    height: 73px;
+    margin: -110px 0 0 -30px;
+    z-index: 0;
+  }
+  
+  .about-us-3 img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: -50px;
+    margin-right: 0;
+    z-index: 2;
+    margin-top: 200px;
+  }
+  
+  .about-us-4 img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    z-index: 1;
+    margin-left: 0;
+    margin-right: -100px;
+  }
+  .sec-delivery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: #f5ede0; */
+  }
+  .sec-delivery-desc-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    /* background-color: #F5EDE0; */
+  }
+  .delivery-step {
+    padding: 40px 60px;
+    font-weight: 500;
+    /* background-color: #F5EDE0; */
+    cursor: pointer;
+  }
+  .desc-delivery {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    color: #C67C4E;
+  }
+  .desc-delivery-1 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+  }
+  .desc-delivery-2 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+  }
+  .desc-delivery-3 {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+  }
+  .desc-delivery-4 {
+    display: flex;
+    justify-content: space-around;
+    /* color: #ff6d38; */
+    font-weight: bold;
+  }
+  .active-delivery {
+    color: #947257 !important;
+}
+
+.active-container {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+  .delivery-step img {
+    margin: auto;
+    width: auto;
+    height: 125px;
+  }
+
+  .sec-menu{
+    display: flex;
+    background: #fff;
+    justify-content: center;
+    flex-direction:column;
+    padding: 60px 40px;
+    align-items: center;
+  }
+
+  .desc-menu {
+    display: flex;
+    font-size: 55px;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .desc-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .btn3 {
+    padding: 12px 28px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #C67C4E;
+    background-color: #fff;
+    border: 2px solid #C67C4E;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Efek hover */
+  .btn3:hover {
+    color: #fff;
+    background-color: #C67C4E;
+    border: 2px solid #C67C4E;
+  }
+  
+  /* Style untuk tombol yang diklik */
+  .btn3.active {
+    color: #fff;
+    background-color: #C67C4E;
+    border: 2px solid #C67C4E;
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: -20px;
+    padding-top: 100px;
+    gap: 80px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    border-radius: 30px;
+    /* border-style: double; */
+    /* padding: 20px; */
+  }
+
+  .menu-drink{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 30px;
+    /* border-style:double; */
+    padding: 0 0 20px 0;
+    align-items: center;
+    margin-top: -100px;
+    box-shadow: 
+    0 4px 8px rgba(0, 0, 0, 0.3),    /* shadow halus dekat elemen */
+    0 8px 20px rgba(0, 0, 0, 0.2);   /* shadow lebih menyebar */
+    transition: box-shadow 0.3s ease;
+  } 
+
+  .menu-drink:hover {
+    box-shadow:
+      0 6px 12px rgba(0, 0, 0, 0.35),
+      0 12px 24px rgba(0, 0, 0, 0.25);
+  }
+
+  .menu-drink img{
+    display: flex;
+    width: 256px;
+    height: 246px;
+    border-radius: 30px;
+  }
+  .coffee-menu{
+    display: flex;
+    margin-left: -1140px;
+    font-size: 24px;
+    color: #C67C4E;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+  .noncoffee-menu{
+    display: flex;
+    margin-left: -1080px;
+    font-size: 24px;
+    color: #C67C4E;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+  .food-menu{
+    display: flex;
+    margin-left: -1160px;
+    font-size: 24px;
+    color: #C67C4E;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+  .snack-menu{
+    display: flex;
+    margin-left: -1140px;
+    font-size: 24px;
+    color: #C67C4E;
+    font-weight: bold;
+    margin-top: 60px;
+  }
+  .coffee-menu img, .noncoffee-menu img,
+  .food-menu img, .snack-menu img {
+    width: auto;
+    height: 48px;
+    margin-top: 15px;
+  }
+  .coffee-desc{
+    display: flex;
+    margin: 10px;
+    font-size: 14px;
+    /* padding: 20px 0 20px 0; */
+  }
+  .coffee-desc span{
+    display: flex;
+    margin-left: 10px;
+  }
+
+  .coffee-desc-1{
+    display: flex;
+    margin-left: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .nav-1 {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-2 {
+      flex-direction: column;
+      padding: 20px;
+      height: auto;
+    }
+  
+    .nav-2-desc span {
+      margin-left: 0;
+      font-size: 24px;
+    }
+  
+    .menu {
+      flex-direction: column;
+    }
+  
+    .desc-btn {
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
