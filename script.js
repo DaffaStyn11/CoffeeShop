@@ -17,7 +17,7 @@ function changeColor(id) {
 }
 function setActive(clickedBtn) {
     // Reset semua tombol dulu
-    document.querySelectorAll('.btn3','.btn4','btn5').forEach(btn => {
+    document.querySelectorAll('.btn3','btn4').forEach(btn => {
         btn.classList.remove('active');
     });
 

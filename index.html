@@ -2,213 +2,294 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Mode Coffee</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Mode Coffee</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="nav-1">
-            <img src="logo1.png" alt="">
-            <div class="tittle-nav">
-                <p class="tittle">Dark Mode</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#tentangkami">About Us</a></li>
-                    <li><a href="#layanan">Delivery</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#hubungi">Contact Us</a></li>
-                </ul>
-            </nav>
-            <button class="btn">Order</button>
+  <header>
+    <div class="nav-1">
+      <img src="logo1.png" alt="">
+      <div class="tittle-nav">
+        <p class="tittle">Dark Mode</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tentangkami">About Us</a></li>
+          <li><a href="#layanan">Delivery</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#hubungi">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="btn">Order</button>
+    </div>
+  </header>
+  <section class="nav-2">
+    <div class="nav-hero">
+      <img src="Hero.png" alt="">
+    </div>
+    <div class="nav-2-desc">
+      <div class="desc1"> 
+        <p>
+          “From the finestcoffee beans, it gives warmth in every sip”</p>
+      </div>
+      <div class="desc2"> 
+        <p>Welcome to Dark Mode, your evening companion. ✨</p>
+      </div>
+    </div>
+  </section>
+  <section class="sec-about-us">
+    <div class="about-content">
+      <p id="about-us" class="about-us-1"> <span class="span-1">ABOUT</span> <span class="span-2">US</span>
+      </p>
+      <div class="triangle"></div>
+      <div class="sec-1-desc-2">
+        <div class="about-us-coffee">
+          <img src="asset/AboutUs3.png" alt="">
         </div>
-    </header>
-    <section class="nav-2">
-        <div class="nav-hero">
-            <img src="Hero.png" alt="">
-        </div>
-        <div class="nav-2-desc">
-            <p class="desc1"> <span>“From the finest coffee</span><span>beans, it gives warmth in </span><span> every
-                    sip”</span>
+        <div class="about-us-2">
+            <p class="about-us-2-a">
+              Behind the dark night, there is a cup of coffee that lights up. Dark Mode 
+              Coffee is here to accompany every moment with quality coffee blends 
+              from selected beans. We believe that coffee is not just a drink, but an 
+              experience-a blend of distinctive aromas, deep flavors, and a soothing 
+              atmosphere.
             </p>
-            <p class="desc2"><span>Welcome to Dark Mode, your evening</span><span> companion. ✨</span>
-            </p>
+          <p class="about-us-2-b">
+            With the concept of dark & cozy, we create a comfortable space for 
+            coffee lovers and night owls. Enjoy the warm ambience under dim lights, 
+            accompanied by soothing music, and premium coffee made with care.
+          </p>
         </div>
-    </section>
-    <section class="sec-about-us">
-        <div class="about-content">
-            <p id="about-us" class="about-us-1"> <span class="span-1">ABOUT</span> <span class="span-2">US</span>
-            </p>
-            <div class="triangle"></div>
-            <div class="sec-1-desc-2">
-                <div class="about-us-coffee">
-                    <img src="AboutUs3.png" alt="">
-                </div>
-                <p class="about-us-2"> <span> Behind the dark night, there is a cup of coffee that lights up. Dark Mode
-                        <span>Coffee is here to accompany every moment with quality coffee blends</span>
-                        <span>from selected beans. We believe that coffee is not just a drink, but an </span>
-                        <span>experience-a blend of distinctive aromas, deep flavors, and a soothing </span>
-                        <span>atmosphere.</span>
-                    </span> <br>
-                    <span>With a cozy atmosphere and friendly service, we aim to be your <br>favorite place to enjoy our
-                        signature dishes with family and friends.</span> <br>
-                </p>
-            </div>
-            <button class="btn2">Order Now</button>
-        </div>
-        <div class="about-us-3">
-            <img src="aboutus2.png" alt="pukis">
-        </div>
-        <div class="about-us-4">
-            <img src="aboutus1.png" alt="roll">
-        </div>
-    </section>
-    <section class="sec-delivery">
-        <div class="sec-delivery-desc-1">
-            <div class="delivery-step" onclick="changeColor('desc-delivery-1')">
-                <img src="order.png" alt="order">
-                <p id="desc-delivery-1" class="desc-delivery">ORDER</p>
-            </div>
-            <div class="delivery-step" onclick="changeColor('desc-delivery-2')">
-                <img src="payment.png" alt="order">
-                <p id="desc-delivery-2" class="desc-delivery">PAYMENT</p>
-            </div>
-            <div class="delivery-step" onclick="changeColor('desc-delivery-3')">
-                <img src="process.png" alt="order">
-                <p id="desc-delivery-3" class="desc-delivery">PROCESSING</p>
-            </div>
-            <div class="delivery-step" onclick="changeColor('desc-delivery-4')">
-                <img src="delivery.png" alt="order">
-                <p id="desc-delivery-4" class="desc-delivery">DELIVERY</p>
-            </div>
-        </div>
-    </section>
+      </div>
+      <button class="btn2">Order Now</button>
+    </div>
+    <div class="about-us-3">
+      <img src="aboutus2.png" alt="pukis">
+    </div>
+    <div class="about-us-4">
+      <img src="aboutus1.png" alt="roll">
+    </div>
+  </section>
+  <section class="sec-delivery">
+    <div class="sec-delivery-desc-1">
+      <div class="delivery-step" onclick="changeColor('desc-delivery-1')">
+        <img src="order.png" alt="order">
+        <p id="desc-delivery-1" class="desc-delivery">ORDER</p>
+      </div>
+      <div class="delivery-step" onclick="changeColor('desc-delivery-2')">
+        <img src="payment.png" alt="order">
+        <p id="desc-delivery-2" class="desc-delivery">PAYMENT</p>
+      </div>
+      <div class="delivery-step" onclick="changeColor('desc-delivery-3')">
+        <img src="process.png" alt="order">
+        <p id="desc-delivery-3" class="desc-delivery">PROCESSING</p>
+      </div>
+      <div class="delivery-step" onclick="changeColor('desc-delivery-4')">
+        <img src="delivery.png" alt="order">
+        <p id="desc-delivery-4" class="desc-delivery">DELIVERY</p>
+      </div>
+    </div>
+  </section>
 
-    <section class="sec-menu">
-        <p id="menu-desc" class="desc-menu">MENU</p>
-        <div class="desc-btn">
-          <button class="btn3" onclick="setActive(this)">All</button>
-          <button class="btn3" onclick="setActive(this)">Food</button>
-          <button class="btn3" onclick="setActive(this)">Drink</button>
-          <button class="btn3" onclick="setActive(this)">Snack</button>
-        </div>
-      
-        <!-- Pisah coffee-menu sebagai judul -->
-        <div class="coffee-menu">
-          <img src="coffee.png" alt="">
-          <p id="drink" class="drink-coffee">Coffee</p>
-        </div>
-      
-        <!-- Container khusus daftar drink -->
-        <div class="menu">
-          <div class="menu-drink">
-            <img src="americano.png" alt="coffee">
-            <p id="drink" class="coffee-desc">Americano coffee <span class="coffee-desc-1">IDR 12.000</span></p>
-          </div>
-          <div class="menu-drink">
-            <img src="cappucino.png" alt="coffee">
-            <p id="drink" class="coffee-desc">Cappucino <span class="coffee-desc-1">IDR 12.000</span></p>
-          </div>
-          <div class="menu-drink">
-            <img src="caffelatte.png" alt="coffee">
-            <p id="drink" class="coffee-desc">Caffe Latte<span class="coffee-desc-1">IDR 12.000</span></p>
-          </div>
-          <div class="menu-drink">
-            <img src="coffeeBrownSugar.png" alt="coffee">
-            <p id="drink" class="coffee-desc">Coffee Brown <br>Sugar <span class="coffee-desc-1">IDR 12.000</span></p>
-          </div>
-          <!-- Tambahkan lainnya sesuai kebutuhan -->
-        </div>
+  <section class="sec-menu">
+    <p id="menu-desc" class="desc-menu">MENU</p>
+    <div class="desc-btn">
+      <button class="btn3" onclick="setActive(this)">All</button>
+      <button class="btn3" onclick="setActive(this)">Food</button>
+      <button class="btn3" onclick="setActive(this)">Drink</button>
+      <button class="btn3" onclick="setActive(this)">Snack</button>
+    </div>
 
-        <!-- Pisah coffee-menu sebagai judul -->
-        <div class="noncoffee-menu">
-            <img src="noncoffee.png" alt="">
-            <p id="drink" class="drink-coffee">Non-Coffee</p>
-          </div>
-        
-          <!-- Container khusus daftar drink -->
-          <div class="menu">
-            <div class="menu-drink">
-              <img src="lemontea.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Lemon Tea <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <div class="menu-drink">
-              <img src="lycheeicetea.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Lychee Tea <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <div class="menu-drink">
-              <img src="matchalatte.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Matcha Latte <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <div class="menu-drink">
-              <img src="redvelvetlatte.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Red Velvet Latte <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <!-- Tambahkan lainnya sesuai kebutuhan -->
-          </div>
+    <!-- Pisah coffee-menu sebagai judul -->
+    <div class="coffee-menu">
+      <img src="coffee.png" alt="">
+      <p id="drink" class="drink-coffee">Coffee</p>
+    </div>
 
-          <!-- Pisah coffee-menu sebagai judul -->
-        <div class="food-menu">
-            <img src="food.png" alt="">
-            <p id="drink" class="drink-coffee">Food</p>
-          </div>
-        
-          <!-- Container khusus daftar drink -->
-          <div class="menu">
-            <div class="menu-drink">
-              <img src="spaghetti.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Americano coffee <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <div class="menu-drink">
-              <img src="chickensteak.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Americano coffee <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <div class="menu-drink">
-              <img src="chickenteriyaki.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Americano coffee <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <div class="menu-drink">
-              <img src="balinesschickenmentai.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Americano coffee <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <!-- Tambahkan lainnya sesuai kebutuhan -->
-          </div>
+    <!-- Container khusus daftar drink -->
+    <div class="menu">
+      <div class="menu-drink">
+        <img src="americano.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Americano coffee <span class="coffee-desc-1">IDR 12.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="cappucino.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Cappucino <span class="coffee-desc-1">IDR 15.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="caffelatte.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Caffe Latte<span class="coffee-desc-1">IDR 15.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="coffeeBrownSugar.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Coffee Brown <br>Sugar <span class="coffee-desc-1">IDR 18.000</span></p>
+      </div>
+      <!-- Tambahkan lainnya sesuai kebutuhan -->
+    </div>
 
-          <!-- Pisah coffee-menu sebagai judul -->
-        <div class="snack-menu">
-            <img src="snack.png" alt="">
-            <p id="drink" class="drink-coffee">Snack</p>
+    <!-- Pisah coffee-menu sebagai judul -->
+    <div class="noncoffee-menu">
+      <img src="noncoffee.png" alt="">
+      <p id="drink" class="drink-coffee">Non-Coffee</p>
+    </div>
+
+    <!-- Container khusus daftar drink -->
+    <div class="menu">
+      <div class="menu-drink">
+        <img src="lemontea.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Lemon Tea <span class="coffee-desc-1">IDR 10.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="lycheeicetea.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Lychee Tea <span class="coffee-desc-1">IDR 12.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="matchalatte.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Matcha Latte <span class="coffee-desc-1">IDR 18.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="redvelvetlatte.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Red Velvet Latte <span class="coffee-desc-1">IDR 18.000</span></p>
+      </div>
+      <!-- Tambahkan lainnya sesuai kebutuhan -->
+    </div>
+
+    <!-- Pisah coffee-menu sebagai judul -->
+    <div class="food-menu">
+      <img src="food.png" alt="">
+      <p id="drink" class="drink-coffee">Food</p>
+    </div>
+
+    <!-- Container khusus daftar drink -->
+    <div class="menu">
+      <div class="menu-drink">
+        <img src="spaghetti.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Spaghetti Aglio <br>e Olio <span class="coffee-desc-1">IDR 20.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="chickensteak.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Chicken Steak with<br>Mashed Potato <span class="coffee-desc-1">IDR
+            35.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="chickenteriyaki.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Teriyaki Chicken <br>Rice Bowl <span class="coffee-desc-1">IDR 30.000</span>
+        </p>
+      </div>
+      <div class="menu-drink">
+        <img src="balinesschickenmentai.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Balinese Chicken <br>Rice Bowl <span class="coffee-desc-1">IDR 30.000</span>
+        </p>
+      </div>
+      <!-- Tambahkan lainnya sesuai kebutuhan -->
+    </div>
+
+    <!-- Pisah coffee-menu sebagai judul -->
+    <div class="snack-menu">
+      <img src="snack.png" alt="">
+      <p id="drink" class="drink-coffee">Snack</p>
+    </div>
+
+    <!-- Container khusus daftar drink -->
+    <div class="menu">
+      <div class="menu-drink">
+        <img src="Truffle.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Truffle Fries <br> <span class="coffee-desc-1">IDR 10.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="onionring.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Onion Rings <br> <span class="coffee-desc-1">IDR 10.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="cireng.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Spicy Fried <br>Tapioca <span class="coffee-desc-1">IDR 10.000</span></p>
+      </div>
+      <div class="menu-drink">
+        <img src="friedbanana.png" alt="coffee">
+        <p id="drink" class="coffee-desc">Chocolate Cheese <br>Fried Banana <span class="coffee-desc-1">IDR
+            10.000</span></p>
+      </div>
+      <!-- Tambahkan lainnya sesuai kebutuhan -->
+    </div>
+
+  </section>
+  <section class="contact-us">
+    <div class="contac-us-desc">
+      <p id="contact-us" class="desc-contact-us">CONTACT <span>US</span></p>
+      <div class="">
+        <p id="momen" class="contact">If you want to enjoy our food on the spot, you can click the map button
+          and <br> will be directed to our address.</p>
+      </div>
+      <div class="contact-us-input">
+        <!-- <label for="nama">Nama</label> -->
+        <input type="text" placeholder="Name">
+      </div>
+      <div class="contact-us-input">
+        <!-- <label for="nohp">No.HP</label> -->
+        <input type="text" placeholder="Email">
+      </div>
+      <div class="contact-us-input">
+        <!-- <label for="tgl">Tanggal</label> -->
+        <input type="text" placeholder="Phone number">
+      </div>
+      <div class="contact-us-input">
+        <!-- <label for="tgl">Tanggal</label> -->
+        <input type="text" placeholder="Phone number">
+      </div>
+      <div class="desc-btn-3">
+        <button class="btn4" onclick="setActive(this)">SEND</button>
+      </div>
+      <div class="item-1">
+        <div class="phone">
+          <img src="phone.png" alt="Phone">
+          <div class="phone-text">
+            <p class="phone-label">Phone</p>
+            <p class="phone-number">+6285555555555</p>
           </div>
-        
-          <!-- Container khusus daftar drink -->
-          <div class="menu">
-            <div class="menu-drink">
-              <img src="Truffle.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Americano coffee <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <div class="menu-drink">
-              <img src="onionring.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Americano coffee <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <div class="menu-drink">
-              <img src="cireng.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Americano coffee <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <div class="menu-drink">
-              <img src="friedbanana.png" alt="coffee">
-              <p id="drink" class="coffee-desc">Americano coffee <span class="coffee-desc-1">IDR 12.000</span></p>
-            </div>
-            <!-- Tambahkan lainnya sesuai kebutuhan -->
+        </div>
+        <div class="email">
+          <img src="email.png" alt="Email">
+          <div class="email-text">
+            <p class="email-label">Email</p>
+            <p class="email-address">dapurdesa@gmail.com</p>
           </div>
-        
-      </section>
-    <script src="script.js"></script>
+        </div>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3954.2275570647193!2d111.5287053!3d-7.6586653!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79bc2998523d17%3A0xf00362c0649ad04a!2sJl.%20Gedong%2C%20Banjarejo%2C%20Kec.%20Taman%2C%20Kota%20Madiun%2C%20Jawa%20Timur%2063137!5e0!3m2!1sen!2sid!4v1741510416110!5m2!1sen!2sid"
+            width="600" height="475" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+  </section>
+  <footer class="footer">
+    <div class="footer-left">
+      <div class="footer-logo">
+        <img src="LogoFooter.png" alt="">
+      </div>
+      <div class="footer-info">
+        <p><span>📍 Address</span>: Banjarejo, Taman, Madiun City, East Java 63137</p>
+        <p><span>📞 Phone</span>: +6285555555555</p>
+        <p><span>📧 Email</span>: darkmoddesign1@gmail.com</p>
+        <p><span>🕒 Operating Hours</span>: Monday - Sunday 10:00 am - 10:00 pm</p>
+      </div>
+    </div>
+    <div class="footer-social">
+      <p><span>🔗 Follow Us:</span></p>
+      <div class="sosical-icon">
+        <a href="#"><i class="fa-brands fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube fa-2x"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 
 </body>
 
