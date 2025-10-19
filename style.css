@@ -14,6 +14,8 @@ header {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  position: relative;
+  z-index: 20;
 }
 
 nav ul {
@@ -57,6 +59,7 @@ nav li a {
   font-weight: bold;
   font-family: "Poppins", sans-serif;
   border: 2px solid #d0c9c9; /* Menetapkan border pada semua sisi */
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -546,64 +549,21 @@ nav li a {
   /* width: 200%; */
   margin-left: 700px;
 }
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  background: #947257;
-  gap: 50px;
-  color: #ffffff;
-}
-
-.footer-logo {
+/* .footer-logo {
   width: auto;
   height: 120px;
   padding: 0 0 0 50px;
-}
+} */
 
-.footer-info{
+.footer-info {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin: 0 0 0 200px;
+  margin: 0 0 0 150px;
 }
-.footer-social{
+.footer-social {
   display: flex;
-  
 }
-
-@media (max-width: 768px) {
-  .nav-1 {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .nav-2 {
-    flex-direction: column;
-    padding: 20px;
-    height: auto;
-  }
-
-  .nav-2-desc span {
-    margin-left: 0;
-    font-size: 24px;
-  }
-
-  .menu {
-    flex-direction: column;
-  }
-
-  .desc-btn {
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 20px;
-  }
-}
-
 .footer {
   display: flex;
   flex-direction: row;
@@ -618,18 +578,18 @@ nav li a {
   max-width: 50%;
   margin: 50px 0;
 }
-.footer-logo img{
+.footer-logo img {
   width: auto;
   height: 120px;
   padding: 0 0 0 50px;
 }
 .footer-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: #fff;
-    font-weight: bold;
-    font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
 }
 .footer-social {
   display: flex;
@@ -664,7 +624,36 @@ nav li a {
 
 /* Responsif */
 @media (max-width: 768px) {
-  .footer {
+  .nav-1 {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-2 {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+
+  .nav-2-desc span {
+    margin-left: 0;
+    font-size: 24px;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+
+  .desc-btn {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+  }
+    .footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
